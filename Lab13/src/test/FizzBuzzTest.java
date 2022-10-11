@@ -79,4 +79,12 @@ class FizzBuzzTest {
 	      String actual = fizzBuzz.convert(number);
 	      assertEquals(expected,actual);
 	   }
+	   @Test
+	   public void Input36ShouldBeFizz() {
+	      String expected = "Fizz";
+	      int number = 36;
+	      FizzBuzz fizzBuzz = new FizzBuzz();
+	      String actual = fizzBuzz.convert(number);
+	      assertEquals(expected,actual);
+	   }
 }
