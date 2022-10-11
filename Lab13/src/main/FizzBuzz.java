@@ -8,7 +8,6 @@ public class FizzBuzz {
 			
 			return String.valueOf(number);
 		}
-
 		private Boolean canDivideBy(int number, int devider){
 			return number % devider == 0;
 		}
